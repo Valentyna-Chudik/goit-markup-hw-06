@@ -454,17 +454,26 @@
           <!--Subscription-->
           <div class="footer-subscription">
             <b class="subscription">подпишитесь на рассылку</b>
-            <button class="subscribe-button" type="button">
-              Подписаться
-              <svg class="button-icon">
-                <use href="./images/sprite.svg#send"></use>
-              </svg>
-            </button>
+            <form>
+              <input
+                class="form-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+              <button class="submit-button" type="submit">
+                Подписаться
+                <svg class="button-icon">
+                  <use href="./images/sprite.svg#send"></use>
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
 
         <p lang="en" class="copyright">2020 | Developed by GoIT Students</p>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

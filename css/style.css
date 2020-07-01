@@ -533,8 +533,8 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-item:hover,
+.client-item:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
   border-radius: 4px;
@@ -696,7 +696,26 @@ body {
   text-transform: uppercase;
 }
 
-.subscribe-button {
+.form-input {
+  display: inline-block;
+  margin-right: 12px;
+  padding: 16px 15px;
+
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: #2f303a;
+
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.submit-button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
